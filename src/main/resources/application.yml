@@ -1,0 +1,7 @@
+spring:
+  application.name: furkan
+  data.mongodb.uri: mongodb://furkan:12345@localhost:27017/auth_template?authSource=admin&readPreference=primary&directConnection=true&ssl=false
+properties:
+  jwt:
+    expiration: 31556926000
+    secret: AJ,~F+bb[p,W2N3L/Q"F&(Q]}TCE=uZ$!/$$:(xefwef$Whe4X+Jy?bSq,N5UG_"R7[qwdefwfNm}#Vhm_k)>=R)9NGp}hUL^WZa/*=fWH)%AZ--$t@,H7&*XCq?q2R4S4U]6dUYE2T8%A:$z%6E7L5(&m#fU9@UUNudu=amQ'~;B#MxJN=JdqZ[Ebc*;G:F![?nU)}v'RR@)m;Z:gJ=cVGZwxRva!v'4_?TqbvPCsF#)J-%=#$s$Z,80
